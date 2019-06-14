@@ -1,0 +1,385 @@
+<resources>
+    <string name="ok">OK</string>
+
+    <!--Keys-->
+    <!-- for volley -->
+
+    <!-- Define all Font Names -->
+    <string name="regular">fonts/proxima-nova-regular.ttf</string>
+    <string name="semi_bold">fonts/proxima-nova-semibold.ttf</string>
+
+    <!--Select Condo screen-->
+    <string name="welcome">WELCOME</string>
+
+    <!--Advertisement Screen-->
+
+    <!-- Login Screen -->
+
+    <!--Common Messages-->
+
+    <!--New Resident-->
+
+
+    <!--Forgot Password-->
+
+
+    <!--Wall-->
+
+    <!--Staff-->
+
+    <!--Common Delete Message-->
+
+    <!--Common Errors-->
+
+    <!--council members-->
+
+    <!--Menu Name-->
+
+    <!--export screen-->
+
+    <!--Create Post-->
+
+
+    <!--Amenitites-->
+    <!--<string name="amenities">AMENITIES</string>-->
+    <!--<string name="amenity">Amenity</string>-->
+    <!--<string name="amenity_details">Amenity Detail</string>-->
+    <!--<string name="booking_amenities">Booking Amenities</string>-->
+    <!--Booking by: %1$s %2$s-->
+    <!--<string name="name_not_entered">Please enter amenity name</string>-->
+    <!--<string name="description_not_entered">Please enter amenity description</string>-->
+    <!--<string name="add_amenity">add amenity</string>-->
+    <!--<string name="book_amenity">book amenity</string>-->
+    <!--<string name="update_amenity">update amenity</string>-->
+    <!--<string name="all_amenities">All Amenities</string>-->
+
+    <!--Add slot dialog-->
+
+    <!--Unit Details-->
+
+    <!--Unit Occupant-->
+    <!--<string name="enable_amenities_booking">enable amenities booking</string>-->
+
+    <!--Unit Vehicle-->
+
+    <!--Two Wheeler-->
+    <!--Four Wheeler-->
+
+    <!--Unit Asset-->
+
+    <!--Unit Visitor-->
+
+    <!--Unit Package-->
+
+    <!--Unit Requests-->
+
+    <!--<string name="choose_amenity_type">Choose amenity type</string>-->
+
+    <!-- Add Request Spinner -->
+
+    <!--ChargeSheet-->
+
+    <!--add card-->
+
+    <!--Request Update status-->
+
+
+    <!--Request Message list-->
+
+    <!--Payment Confirmation-->
+
+
+    <!-- Unit Documents-->
+    <!--<string name="share_with_my_unit">share with my unit</string>-->
+
+    <!--Folder Error-->
+
+    <!--Document Error-->
+
+    <!--Messagner-->
+
+    <!--Directory-->
+
+    <!--Unit Floor Plan-->
+
+
+    <!--Wall Array Filter-->
+
+    <!--Add to wall/Create Post Error-->
+
+
+    <!--Error Add/Edit Occuptant Error-->
+
+    <!--Add Parking Error-->
+
+    <!--Add visitor Error-->
+
+
+    <!--Add Asset Error-->
+
+    <!--Add Request Error-->
+
+    <!--Visiter Error-->
+
+
+    <!--Package Error-->
+
+
+    <!--Strings for WallType-->
+
+    <!--Wall popup for edit or delete-->
+
+    <!-- update Package details-->
+
+    <!--Alert Message-->
+
+
+    <!-- Change password -->
+    <string name="cancel">Cancel</string>
+
+    <!--Change Pin number-->
+
+    <!--add media-->
+
+    <!--Categories Listing-->
+
+    <!--Approval-->
+    <!-- in alert_reject_wall - this %1$s?  -->
+
+    <!--Insceptions-->
+
+    <!-- ADD INSPECTION-->
+
+    <!--Template Inspection-->
+
+
+    <!-- Inspection Detail-->
+
+
+    <!-- perform inspection error-->
+
+    <!--Status-->
+
+    <!--My Account-->
+
+    <!--Template-->
+
+    <!--Template Validation-->
+
+    <!-- Update Template-->
+
+    <!--Strings for Book amenity-->
+
+    <!--notification-->
+
+    <!--Poll-->
+    <!--<string name="poll_result_declare">Poll results will be available on </string>-->
+    <!--<string name="poll_result_declare">Poll Result Display on </string>-->
+    <!--<string name="poll_result_declare">Poll Result declare on </string>-->
+    <!--<string name="is_public">is public ?</string>
+    <string name="immediate_result">Immediate Result</string>-->
+
+    <!--Camera Permission-->
+
+    <!--No Data to display texts-->
+    <!--<string name="no_data_condo_feedback">You can add a new condo feedback\nby clicking on the + button on the top</string>-->
+
+    <!--AGO Ellipse time-->
+
+
+    <!--Concierge Detail-->
+
+    <!--Payment Screen-->
+
+    <!--My Account Screen-->
+
+    <!--Purchase Wallet Currency-->
+
+    <!--Wallet Refund list-->
+
+    <!--Wallet Transaction-->
+    <!--<string name="lbl_for_booking">For Booking Amenity : %1$s</string>-->
+    <!--<string name="lbl_from_amenity">From Amenity : %1$s</string>-->
+
+    <!--Transaction keys-->
+    <!--<string name="lbl_amenity_fee">Amenity Fee</string>-->
+    <!--<string name="text_amenity_fee">Paid %1$s%2$s for booking %3$s amenity by %4$s</string>-->
+    <!--<string name="amenity_payment_detail_title">Payment for Amenity %1$s</string>-->
+    <!--<string name="amenity_filter">Amenity Filter</string>-->
+
+    <!--File Picker-->
+
+    <!--Update dialog-->
+
+    <!--Friend List-->
+
+    <!--Login-->
+
+    <!-- Unit Occupant-->
+
+    <!-- General Message-->
+
+
+    <!-- Common Error Message-->
+
+
+    <!-- Concierge Details-->
+
+    // Mukesh
+
+    <!--Forgot Password -->
+    //old "reset Now"
+
+
+    <!-- Common Message-->
+
+    <!-- New Resident-->
+    <!--<string name="male_camel">Male</string>-->
+    <!--<string name="female_camel">Female</string>-->
+
+    <!-- Amenities -->
+
+    <!-- Strings for Book amenity-->
+
+    <!-- Amenities -->
+    <!--<string name="remind_booking_fee">Remind Booking Fee</string>-->
+
+
+    <!-- String for Book Amenity-->
+    <!--<string name="hint_reminder_note">Enter booking fee reminder note</string>-->
+
+    <!--Unit Vehicle-->
+
+    <!-- Amenities-->
+
+    <!-- Payment Screen-->
+
+    <!-- Add Inspection-->
+
+    <!-- Directory-->
+
+    <!-- String for Amenity Book-->
+
+    <!-- Concierge Detail-->
+
+    <!-- Reset Credentials -->
+
+    <!-- Error Message for Reset Credentials-->
+
+
+    <!--Status-->
+
+
+    /************************ Gaurav Balbhadra *************************/
+    <!-- iLiving -->
+
+    <!-- Directory-->
+
+    <!--Amenities-->
+
+    <!-- Create Post -->
+
+    <!-- Advertisement Screen-->
+
+    <!-- Common Message-->
+
+    <!-- Send Service Inquiry-->
+
+    <!-- Unit Request-->
+
+    <!-- Poll -->
+
+    <!-- Audit Trial New-->
+
+    <!-- Staff -->
+
+    <!-- Unit Occupant-->
+
+    <!-- Unit Visitor -->
+
+    <!-- Common Messages-->
+
+    <!-- Unit Vehicle-->
+
+    <!-- String for amenity book -->
+
+    <!-- User Ecpiry Filter-->
+
+    <!-- New Resident-->
+
+    <!-- Unit Occupant-->
+
+    <!-- Unit Vehicle-->
+
+
+    <!-- tnc(Trems and Conditions) Start-->
+
+    <!-- New Residents-->
+
+    <!-- Parcel Santa-->
+
+    <!--<string name="collect_pin">COLLECT ( PIN</string>-->
+
+    <!-- Unit Occupant-->
+
+
+    <!-- Concierge  Detail-->
+
+    <!-- Amenities-->
+    <!--<string name="choose_amenity_grouping">Choose Amenity Grouping</string>-->
+
+    <!-- String for book Amenity-->
+    <!--<string name="group_booking_selected">%s Child amenities selected for group booking together.</string>-->
+
+    <!-- Audit Trial new-->
+
+    <!-- Common Message-->
+
+    <!-- Parcel Santa-->
+
+    <!-- Send Inquiry-->
+
+    <!-- No Use-->
+
+    <!--Vida-->
+
+
+    <!-- stream resolution-->
+
+    <!-- stream frame rate-->
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <!-- Camera Permission-->
+
+
+    <!-- array of stream bandwidth-->
+
+
+    <!--Z-Wave Menu List-->
+
+    <string name="settings">Settings</string>
+
+    <!--Z-Wave -->
+
+    <!--<string name="buy_new_gateway_or_no_gateway">Buy new gateway Or \nI have no gateway devices </string>-->
+
+
+    <!--gateway & camera error-->
+
+
+    <!--cmd class string -->
+
+
+    <!--Dropbox key -->
+
+    <!--Push Notification-->
+
+
+    <!--GSS framework error-->
+    <!--<string name="read_all_message">Are you sure want to read all notification ?</string>-->
+
+    <!--User Management-->
+
+
+</resources>

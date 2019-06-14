@@ -1,0 +1,290 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--<style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar" />-->
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Screen background color -->
+        <item name="android:windowBackground">@color/bgLightGray</item>
+        <item name="background">@color/bgLightGray</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- ActionBarStyle -->
+        <item name="android:actionBarStyle">@style/styleActionBar</item>
+        <item name="actionBarStyle">@style/styleActionBar</item>
+        <!-- Actionbar color -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+        <!--view styles-->
+        <item name="android:editTextStyle">@style/EditTextStyle</item>
+        <item name="editTextStyle">@style/EditTextStyle</item>
+        <item name="android:textViewStyle">@style/TextViewStyle</item>
+        <item name="android:buttonStyle">@style/ButtonStyle</item>
+        <item name="buttonStyle">@style/ButtonStyle</item>
+        <item name="android:checkboxStyle">@style/CheckBoxStyle</item>
+        <item name="checkboxStyle">@style/CheckBoxStyle</item>
+        <item name="android:radioButtonStyle">@style/RadioButtonStyle</item>
+        <item name="radioButtonStyle">@style/RadioButtonStyle</item>
+        <item name="android:datePickerStyle">@style/datePickerStyle</item>
+
+        <item name="android:spinnerStyle">@style/SpinnerTheme</item>
+        <item name="spinnerStyle">@style/SpinnerTheme</item>
+        <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownStyle</item>
+        <item name="spinnerDropDownItemStyle">@style/SpinnerDropDownStyle</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="android:itemTextAppearance">@style/itemTextStyle.AppTheme</item>
+        <item name="actionOverflowMenuStyle">@style/OverflowMenu</item>
+        <item name="android:actionMenuTextAppearance">@style/MyMenuTextAppearance</item>
+        <item name="actionMenuTextAppearance">@style/MyMenuTextAppearance</item>
+    </style>
+
+    <!-- Application theme vida -->
+
+    <!-- TextAppearance -->
+
+    <style name="TextAppearance.Medium" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+
+    <style name="MyMenuTextAppearance" parent="android:TextAppearance.Holo.Widget.ActionBar.Menu">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/font_18</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="OverflowMenu" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <!-- Required for pre-Lollipop. -->
+        <item name="overlapAnchor">false</item>
+        <item name="android:width">@dimen/margin_100</item>
+        <item name="android:dropDownVerticalOffset">-4.0dip</item>
+
+    </style>
+    <!-- ActionBar Style -->
+    <style name="styleActionBar" parent="@style/Widget.AppCompat.ActionBar.Solid">
+        <item name="background">@color/bg</item>
+        <item name="android:background">@color/bg</item>
+        <item name="icon">@android:color/transparent</item>
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="windowActionBarOverlay">false</item>
+        <item name="android:windowActionBarOverlay">false</item>
+        <item name="android:displayOptions">homeAsUp|showHome</item>
+        <item name="displayOptions">homeAsUp|showHome</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+    </style>
+
+    <!-- Theme NoActionBar -->
+    <style name="AppTheme.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- EditText Customized -->
+    <style name="EditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/myedit_selector</item>
+        <item name="android:textAppearance">@style/TextAppearance.Medium</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingLeft">@dimen/margin_normal</item>
+        <item name="android:paddingRight">@dimen/margin_normal</item>
+        <item name="android:minHeight">@dimen/min_height</item>
+        <item name="android:textSize">@dimen/font_14</item>
+        <item name="android:inputType">textNoSuggestions</item>
+        <item name="android:textCursorDrawable">@drawable/color_cursor</item>
+        <item name="android:textColorHint">@color/light_gray_color</item>
+        <item name="android:textColor">@color/textcolor</item>
+    </style>
+
+    <!-- Checkbox Customized -->
+    <style name="CheckBoxStyle" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/btn_checkbox_selector</item>
+        <item name="android:textAppearance">@style/TextAppearance.Medium</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:minHeight">@dimen/margin_24</item>
+        <item name="android:minWidth">@dimen/margin_24</item>
+        <item name="android:textSize">@dimen/font_14</item>
+        <item name="android:textColorHint">@color/light_gray_color</item>
+        <item name="android:textColor">@color/textcolor</item>
+        <item name="fontPath">@string/regular</item>
+    </style>
+
+    <!-- TextView style -->
+
+    <!-- errorTextView style -->
+
+    <!-- EditText style -->
+
+    <style name="datePickerStyle" parent="android:Widget.DatePicker">
+        <item name="android:positiveButtonText">@string/ok</item>
+        <item name="android:negativeButtonText">@string/cancel</item>
+    </style>
+    <!-- Radio Button Customized -->
+    <style name="RadioButtonStyle" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/theme_rg_green</item>
+        <item name="android:textAppearance">@style/TextAppearance.Medium</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingRight">@dimen/margin_5</item>
+        <item name="android:paddingTop">@dimen/margin_5</item>
+        <item name="android:paddingBottom">@dimen/margin_5</item>
+        <item name="android:paddingLeft">@dimen/margin_10</item>
+        <item name="android:minHeight">@dimen/min_height</item>
+        <item name="android:textSize">@dimen/font_14</item>
+        <item name="android:textColorHint">@color/light_gray_color</item>
+        <item name="android:textColor">@color/light_gray_color</item>
+        <item name="fontPath">@string/semi_bold</item>
+    </style>
+
+    <!--Spinner Customized-->
+    <style name="SpinnerTheme" parent="android:Widget.Spinner">
+        <item name="android:background">@drawable/theme_square_spinner</item>
+        <item name="android:popupBackground">@color/folder_storage_secondary</item>
+        <item name="android:dropDownVerticalOffset">@dimen/margin_0</item>
+        <item name="android:textSize">@dimen/font_14</item>
+        <item name="android:paddingRight">@dimen/margin_34</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:textColor">@color/amenities_photo</item>
+        <item name="fontPath">@string/semi_bold</item>
+    </style>
+
+    <!--Spinner Customized-->
+    <style name="SpinnerDropDownStyle" parent="Widget.AppCompat.DropDownItem.Spinner">
+        <item name="android:dropDownWidth">match_parent</item>
+        <item name="android:dropDownHeight">wrap_content</item>
+        <item name="android:rowHeight">@dimen/margin_4</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:textSize">@dimen/font_14</item>
+        <item name="android:background">@drawable/theme_blue_spinner_dropdown</item>
+        <item name="android:textColor">@color/light_gray_color</item>
+        <item name="fontPath">@string/semi_bold</item>
+    </style>
+
+    <!--Spinner Customized-->
+
+    <!--Spinner Customized-->
+
+    <!-- TextView Customized -->
+    <style name="TextViewStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textAppearance">@style/TextAppearance.Medium</item>
+        <item name="android:textColorHint">@color/light_gray_color</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/font_14</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:paddingLeft">@dimen/margin_normal</item>
+        <item name="android:paddingRight">@dimen/margin_normal</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <!--Textview with white background and rounded cornered-->
+
+    <!-- Button Customized -->
+    <style name="ButtonStyle" parent="@android:style/Widget.Button">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColorHint">@color/light_gray_color</item>
+        <!--<item name="android:textColor">@color/white</item>-->
+        <item name="android:textColor">@drawable/text_blue_to_gray_selector</item>
+        <item name="android:textSize">@dimen/font_14</item>
+        <!--<item name="android:background">@drawable/theme_btn_blue</item>-->
+        <item name="android:background">@drawable/theme_square_btn_blue</item>
+        <item name="android:minHeight">@dimen/min_height</item>
+        <item name="android:textAppearance">@style/TextAppearance.Medium</item>
+        <item name="fontPath">@string/semi_bold</item>
+    </style>
+
+    <!-- ListView Customized -->
+
+    <!-- ProgressBar dialog theme -->
+
+    <!-- Spinner for amenities booking-->
+
+    <!--Transparent activity-->
+
+    <!--&lt;!&ndash;Caldroid calendar theme&ndash;&gt;-->
+    <!--<style name="CaldroidDefaultDark" parent="CaldroidDefault">-->
+        <!--<item name="styleCaldroidViewLayout">@style/CaldroidDefaultDarkCalendarViewLayout</item>-->
+        <!--<item name="styleCaldroidMonthName">@style/CaldroidDefaultDarkMonthName</item>-->
+        <!--<item name="styleCaldroidNormalCell">@style/CaldroidDefaultDarkNormalCell</item>-->
+        <!--<item name="styleCaldroidSquareCell">@style/CaldroidDefaultDarkSquareCell</item>-->
+        <!--<item name="styleCaldroidGridView">@style/CaldroidDefaultDarkGridView</item>-->
+        <!--<item name="styleCaldroidWeekdayView">@style/CaldroidDefaultWeekday</item>-->
+    <!--</style>-->
+
+    <!--<style name="CaldroidDefaultDarkCalendarViewLayout">-->
+        <!--<item name="android:background">@color/white</item>-->
+    <!--</style>-->
+
+    <!--<style name="CaldroidDefaultDarkMonthName" parent="CaldroidDefaultMonthName">-->
+        <!--<item name="android:textColor">@color/bg</item>-->
+        <!--<item name="android:layout_width">0dp</item>-->
+        <!--<item name="android:background">@color/white</item>-->
+        <!--<item name="android:layout_weight">1</item>-->
+        <!--<item name="android:layout_marginBottom">@dimen/margin_8</item>-->
+        <!--<item name="android:layout_height">@dimen/margin_44</item>-->
+        <!--<item name="android:gravity">center</item>-->
+        <!--<item name="android:textSize">@dimen/font_18</item>-->
+    <!--</style>-->
+
+    <!--<style name="CaldroidDefaultDarkGridView" parent="CaldroidDefaultGridView">-->
+        <!--<item name="android:background">@color/bgLightGray</item>-->
+    <!--</style>-->
+
+    <!--<style name="CaldroidDefaultDarkCell" parent="CaldroidDefaultCell">-->
+        <!--<item name="android:textColor">@color/bg</item>-->
+        <!--<item name="android:background">@color/cell_text_color_dark</item>-->
+    <!--</style>-->
+
+    <!--<style name="CaldroidDefaultDarkNormalCell" parent="CaldroidDefaultDarkCell">-->
+        <!--<item name="android:textColor">@color/bg</item>-->
+        <!--<item name="android:background">@color/cell_text_color_dark</item>-->
+        <!--<item name="android:padding">@dimen/margin_4</item>-->
+        <!--<item name="android:textSize">@dimen/font_14</item>-->
+    <!--</style>-->
+
+    <!--<style name="CaldroidDefaultDarkSquareCell" parent="CaldroidDefaultDarkCell">-->
+        <!--<item name="android:textColor">@color/bg</item>-->
+        <!--<item name="android:background">@color/cell_text_color_dark</item>-->
+        <!--<item name="android:padding">@dimen/margin_4</item>-->
+        <!--<item name="android:textSize">@dimen/font_14</item>-->
+    <!--</style>-->
+
+    <!--Context menu style for v21-->
+    <style name="itemTextStyle.AppTheme" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="android:textColor">@color/black_title</item>
+        <item name="android:textSize">@dimen/font_16</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+
+    <!--Vida Style -->
+
+    <!-- ActionBar Style -->
+
+
+    <!-- TextView Customized -->
+
+
+    <!-- TextView style -->
+
+    <!-- EditText Customized -->
+
+    <!-- EditText style -->
+
+    <!-- Button Customized -->
+
+
+    <!-- Radio Button Customized -->
+
+    <!-- Checkbox Customized -->
+
+    <!--Spinner Customized-->
+
+    <!--Spinner Customized-->
+
+</resources>

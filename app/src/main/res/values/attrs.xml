@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- For Custom Font Support Views -->
+
+    <declare-styleable name="Custom">
+        <attr name="font_style" format="string" />
+    </declare-styleable>
+
+    <!-- For Sliding Menu -->
+
+    <declare-styleable name="SlidingMenu">
+        <attr name="mode">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+        <attr name="viewAbove" format="reference" />
+        <attr name="viewBehind" format="reference" />
+        <attr name="behindOffset" format="dimension" />
+        <attr name="behindWidth" format="dimension" />
+        <attr name="behindScrollScale" format="float" />
+        <attr name="touchModeAbove">
+            <enum name="margin" value="0" />
+            <enum name="fullscreen" value="1" />
+        </attr>
+        <attr name="touchModeBehind">
+            <enum name="margin" value="0" />
+            <enum name="fullscreen" value="1" />
+        </attr>
+        <attr name="shadowDrawable" format="reference" />
+        <attr name="shadowWidth" format="dimension" />
+        <attr name="fadeEnabled" format="boolean" />
+        <attr name="fadeDegree" format="float" />
+        <attr name="selectorEnabled" format="boolean" />
+        <attr name="selectorDrawable" format="reference" />
+    </declare-styleable>
+
+    <!-- Defines the custom XML attributes supported for a HorizontalListView -->
+    <declare-styleable name="HorizontalListView">
+        <attr name="dividerWidth" format="dimension" />
+        <attr name="android:divider" />
+        <attr name="android:requiresFadingEdge" />
+        <attr name="android:fadingEdgeLength" />
+    </declare-styleable>
+
+
+    <!-- Defines the custom XML attributes supported for a HorizontalListView -->
+    <declare-styleable name="MySpinner">
+        <attr name="android:background" />
+        <attr name="android:gravity" />
+        <attr name="android:padding" />
+        <attr name="android:minHeight" />
+        <attr name="android:textColor" />
+        <attr name="listitem" />
+    </declare-styleable>
+
+    <!-- Custom Attribute for Gallery view -->
+    <declare-styleable name="GalleryView">
+        <attr name="text" format="string" />
+        <attr name="textColor" format="integer" />
+        <attr name="gallery" format="boolean" />
+        <attr name="camera" format="boolean" />
+        <attr name="video" format="boolean" />
+        <attr name="document" format="boolean" />
+        <!--<attr name="singleDocument" format="boolean" />-->
+        <attr name="thumbnail" format="boolean" />
+        <attr name="captureVideo" format="boolean" />
+        <attr name="selectVideo" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ImageCropView">
+        <attr name="gridInnerStroke" format="dimension" />
+        <attr name="gridInnerColor" format="color" />
+        <attr name="setInnerGridMode" format="integer">
+            <enum name="off" value="0"/>
+            <enum name="on" value="1"/>
+        </attr>
+
+        <attr name="gridOuterStroke" format="dimension" />
+        <attr name="gridOuterColor" format="color" />
+        <attr name="setOuterGridMode" format="integer">
+            <enum name="off" value="0"/>
+            <enum name="on" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <!--WeekView Attributes-->
+    <declare-styleable name="WeekView">
+        <attr name="firstDayOfWeek" format="enum">
+            <enum name="sunday" value="1"/>
+            <enum name="monday" value="2"/>
+            <enum name="tuesday" value="3"/>
+            <enum name="wednesday" value="4"/>
+            <enum name="thursday" value="5"/>
+            <enum name="friday" value="6"/>
+            <enum name="saturday" value="7"/>
+        </attr>
+        <attr name="hourHeight" format="dimension"/>
+        <attr name="minHourHeight" format="dimension"/>
+        <attr name="maxHourHeight" format="dimension"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="eventTextSize" format="dimension"/>
+        <attr name="headerColumnPadding" format="dimension"/>
+        <attr name="headerRowPadding" format="dimension"/>
+        <attr name="columnGap" format="dimension"/>
+        <attr name="headerColumnTextColor" format="color"/>
+        <attr name="noOfVisibleDays" format="integer"/>
+        <attr name="headerRowBackgroundColor" format="color"/>
+        <attr name="dayBackgroundColor" format="color"/>
+        <attr name="hourSeparatorColor" format="color"/>
+        <attr name="todayBackgroundColor" format="color"/>
+        <attr name="todayHeaderTextColor" format="color"/>
+        <attr name="hourSeparatorHeight" format="dimension"/>
+        <attr name="eventTextColor" format="color"/>
+        <attr name="eventPadding" format="dimension"/>
+        <attr name="headerColumnBackground" format="color"/>
+        <attr name="dayNameLength" format="enum">
+            <enum name="length_short" value="1"/>
+            <enum name="length_long" value="2"/>
+        </attr>
+        <attr name="overlappingEventGap" format="dimension"/>
+        <attr name="eventMarginVertical" format="dimension"/>
+        <attr name="xScrollingSpeed" format="float"/>
+        <attr name="eventCornerRadius" format="dimension"/>
+        <attr name="showDistinctPastFutureColor" format="boolean"/>
+        <attr name="showDistinctWeekendColor" format="boolean"/>
+        <attr name="futureBackgroundColor" format="color"/>
+        <attr name="pastBackgroundColor" format="color"/>
+        <attr name="futureWeekendBackgroundColor" format="color"/>
+        <attr name="pastWeekendBackgroundColor" format="color"/>
+        <attr name="showNowLine" format="boolean"/>
+        <attr name="nowLineColor" format="color"/>
+        <attr name="nowLineThickness" format="dimension"/>
+        <attr name="horizontalFlingEnabled" format="boolean"/>
+        <attr name="verticalFlingEnabled" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="Ranger">
+        <!-- Behaviour attributes -->
+        <attr name="displayDayOfWeek" format="boolean"/>
+        <attr name="alwaysDisplayMonth" format="boolean"/>
+        <!-- Days Container styling -->
+        <attr name="daysContainerBackgroundColor" format="color"/>
+        <attr name="dayTextColor" format="color"/>
+        <attr name="selectedDayTextColor" format="color"/>
+        <attr name="selectedDayBackgroundColor" format="color"/>
+        <!-- Day View styling -->
+        <attr name="dayOfWeekTextColor" format="color"/>
+        <attr name="dayNumberTextColor" format="color"/>
+        <attr name="monthNameTextColor" format="color"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="SignaturePad">
+        <attr name="penMinWidth" format="dimension" />
+        <attr name="penMaxWidth" format="dimension" />
+        <attr name="penColor" format="color" />
+        <attr name="velocityFilterWeight" format="float" />
+        <attr name="clearOnDoubleClick" format="boolean"/>
+    </declare-styleable>
+
+
+    <!--File Picker-->
+    <attr name="mfp_toolbar_theme" format="reference"/>
+
+    <!-- numberPickerStyle -->
+    <attr name="numberPickerStyle" format="reference" />
+
+    <declare-styleable name="NumberPicker">
+        <attr name="np_width" format="dimension" />
+        <attr name="np_height" format="dimension" />
+        <attr name="np_dividerColor" format="color" />
+        <attr name="np_dividerDistance" format="dimension" />
+        <attr name="np_dividerThickness" format="dimension" />
+        <attr name="np_formatter" format="string" />
+        <attr name="np_fadingEdgeEnabled" format="boolean" />
+        <attr name="np_max" format="integer" />
+        <attr name="np_min" format="integer" />
+        <attr name="np_order" format="enum">
+            <enum name="ascending" value="0" />
+            <enum name="descending" value="1" />
+        </attr>
+        <attr name="np_orientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="np_scrollerEnabled" format="boolean" />
+        <attr name="np_selectedTextColor" format="color" />
+        <attr name="np_selectedTextSize" format="dimension" />
+        <attr name="np_textColor" format="color" />
+        <attr name="np_textSize" format="dimension" />
+        <attr name="np_typeface" format="string" />
+        <attr name="np_value" format="integer" />
+        <attr name="np_wheelItemCount" format="integer" />
+        <attr name="np_wrapSelectorWheel" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="ListSwipeItem">
+        <attr name="swipeViewId" format="integer" />
+        <attr name="leftViewId" format="integer" />
+        <attr name="rightViewId" format="integer" />
+    </declare-styleable>
+</resources>

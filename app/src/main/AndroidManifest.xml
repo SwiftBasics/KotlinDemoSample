@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+          package="com.basecode">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+            android:name="com.basecode.base.MyApplication"
+            android:allowBackup="true"
+            android:fullBackupContent="true"
+            android:icon="${appIcon}"
+            android:label="@string/app_name"
+            android:largeHeap="true"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme"
+            tools:replace="android:icon,android:theme">
+
+        <activity
+                android:name=".ui.activities.SplashActivity"
+                android:launchMode="singleTop"
+                android:screenOrientation="portrait"
+                android:theme="@style/AppTheme.NoActionBar"
+                android:windowSoftInputMode="stateAlwaysHidden|stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <!-- Test for URL scheme -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                        android:host="com.fermax"
+                        android:scheme="com.fermax" />
+            </intent-filter>
+            <!-- End Test for URL scheme -->
+        </activity>
+
+        <activity
+                android:name=".ui.activities.MainActivity"
+                android:configChanges="orientation|keyboardHidden|screenSize"
+                android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity
+                android:name=".ui.activities.LoginActivity"
+                android:configChanges="screenSize|keyboardHidden|orientation"
+                android:exported="false"
+                android:launchMode="singleTask"
+                android:permission="null"
+                android:screenOrientation="portrait"
+                android:theme="@style/AppTheme"
+                android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+
+    </application>
+
+</manifest>

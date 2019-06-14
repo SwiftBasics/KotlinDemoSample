@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/margin_4" />
+            <solid android:color="@color/transparent" />
+            <stroke android:width="@dimen/margin_2" android:color="@color/white" />
+        </shape>
+    </item>
+    <item android:state_selected="true">
+        <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+            <item>
+                <shape android:shape="rectangle">
+                    <stroke
+                        android:width="2px"
+                        android:color="@color/marun" />
+                    <solid android:color="@color/transparent"/>
+                </shape>
+            </item>
+            <item
+                android:gravity="center|right"
+                android:right="@dimen/margin_12">
+                <bitmap android:gravity="center|right" android:src="@drawable/ic_dropdown_black" />
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+            <item>
+                <shape android:shape="rectangle">
+                    <stroke
+                        android:width="2px"
+                        android:color="@color/view_btm_line" />
+                    <solid android:color="@color/transparent"/>
+                </shape>
+            </item>
+
+            <item
+                android:gravity="center|right"
+                android:right="@dimen/margin_12">
+                <bitmap android:gravity="center|right" android:src="@drawable/ic_dropdown_black" />
+            </item>
+        </layer-list>
+
+    </item>
+</selector>

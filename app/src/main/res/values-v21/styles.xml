@@ -1,0 +1,61 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar" />
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- Screen background color -->
+        <item name="android:windowBackground">@color/bgLightGray</item>
+        <item name="background">@color/bgLightGray</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- ActionBarStyle -->
+        <item name="android:actionBarStyle">@style/styleActionBar</item>
+        <item name="actionBarStyle">@style/styleActionBar</item>
+        <!-- Actionbar color -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/bg</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+
+        <!--view styles-->
+        <item name="android:editTextStyle">@style/EditTextStyle</item>
+        <item name="editTextStyle">@style/EditTextStyle</item>
+        <item name="android:textViewStyle">@style/TextViewStyle</item>
+        <item name="android:buttonStyle">@style/ButtonStyle</item>
+        <item name="buttonStyle">@style/ButtonStyle</item>
+        <item name="android:checkboxStyle">@style/CheckBoxStyle</item>
+        <item name="checkboxStyle">@style/CheckBoxStyle</item>
+        <item name="android:spinnerStyle">@style/SpinnerTheme</item>
+        <item name="spinnerStyle">@style/SpinnerTheme</item>
+        <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownStyle</item>
+        <item name="spinnerDropDownItemStyle">@style/SpinnerDropDownStyle</item>
+        <item name="android:actionMenuTextColor">@color/black_title</item>
+        <item name="actionMenuTextColor">@color/black_title</item>
+        <item name="android:itemTextAppearance">@style/itemTextStyle.AppTheme</item>
+        <item name="actionOverflowMenuStyle">@style/OverflowMenu</item>
+        <item name="android:actionMenuTextAppearance">@style/MyMenuTextAppearance</item>
+        <item name="actionMenuTextAppearance">@style/MyMenuTextAppearance</item>
+    </style>
+
+    <style name="OverflowMenu" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <!-- Required for Lollipop. -->
+        <item name="android:width">@dimen/margin_100</item>
+        <item name="android:maxWidth">@dimen/margin_100</item>
+        <item name="android:overlapAnchor">false</item>
+        <item name="android:dropDownVerticalOffset">4.0dip</item>
+    </style>
+
+
+    <!--Transparent activity-->
+    <!-- Theme NoActionBar -->
+    <style name="AppTheme.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+</resources>

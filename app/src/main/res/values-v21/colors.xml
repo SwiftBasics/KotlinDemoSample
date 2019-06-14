@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1E1C1D</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#E11E1C1D</color>
+
+    <color name="bg">#1E1C1D</color>
+
+    <color name="welcome_color">#FFFFFF</color>
+
+
+    <color name="edt_border">#8E8E8E</color>
+
+
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="line_color">#D7D7D7</color>-->
+
+    <!--Common Colors-->
+
+    <!--<color name="bg">#003F87</color>-->
+    <color name="light_gray">#AAAAAA</color>
+    <!--<color name="pressed">#2981E5</color>-->
+    <!--<color name="normal">#02254D</color>-->
+    <!--<color name="edt_border">#1FA3DC</color>-->
+    <color name="white">#FFFFFF</color>
+    <color name="textcolor">#727272</color>
+    <!--<color name="textcolor_ios">#AAAAAA</color>-->
+    <!--<color name="menu_selected">#98B9DF</color>-->
+    <color name="marun">#ED7161</color>
+    <!--<color name="welcome_color">#98B9DF</color>-->
+    <color name="amenities_photo">#595959</color>
+
+    <!--<color name="colorAccent">#e1003f87</color>-->
+    <color name="bgLightGray">#F5F5F5</color>
+    <color name="line_color">#B9B9B9</color>
+    <color name="light_gray_color">#8E8E8E</color>
+    <color name="transparent">#00ffffff</color>
+
+    <!--Wall Post -->
+    <color name="black_title">#191919</color>
+
+    <!--Wall Comment List-->
+
+    <!-- Inspection Color -->
+
+    <color name="folder_storage_secondary">#DBE7E7E7</color>
+
+
+    <!--File Picker-->
+
+    <!--New Design Colors [Applied From 26th April 2017 ]-->
+    <color name="view_btm_line">#D0D0D0</color>
+
+    <color name="red">#ff0000</color>
+    <color name="yellow">#F8E71C</color>
+
+</resources>
